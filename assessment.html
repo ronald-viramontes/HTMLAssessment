@@ -29,6 +29,14 @@
     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. <tt /> </p>
 
       <h1>FOOTBALL SCORES TABLE</h1>
+
+        <p class="tab"> The <strong>Las Vegas Raiders</strong> and <strong>San Fransisco 49ers</strong>
+          played at <strong>Levi's Statium <br> in Santa Clara, CA on Sun 08/29/2021</strong>. The
+          reported temperature was <strong>77°F</strong> <br> with no wind or rain reported.  The
+          game had <strong>60,873</strong> fans in attendance. <br />
+         </p>
+
+
         <table>
           <tr>
             <b class="tabs">Scores by Quarter</b> <br />
@@ -68,7 +76,7 @@
           </tr>
         </table>
 
-      <h1>AMERICAN FOOTBALL TEAM LIST</h1>
+      <h1>FOOTBALL TEAM SPEC LIST</h1>
         <ul>
           <img src="https://assets-sports.thescore.com/football/team/7/logo.png">
         </ul>
@@ -98,13 +106,56 @@
           </ul>
 
       <h1>PERSONALIZED SPORTS ENTRY FORM</h1>
+      <h4>DO NOT ENTER PERSONAL INFORMATION INTO THIS FORM!</h4>
         <form class="" action="index.html" method="post">
           <label for="fname">First Name:</label>
           <input type="text" id="fname" name="fname">
+          <label for="mname">Middle Name:</label>
+          <input type="text" id="mname" name="mname">
           <label for="lname">Last Name:</label>
           <input type="text" id="lname" name="fname"> <br />
+          <br />
+          <label for="email">Enter email address:</label>
+          <input type="email" id="email" name="email"> <br />
+          <br />
+          <label for="zodiac">Zodiac Sign:</label>
+          <input type="text" id="zodiac" name="zodiac"> <br />
+          <br />
+          <label for="btype">Blood Type:</label>
+          <select class="btype" id="btype">
+            <option value="none">--</option>
+            <option value="apos">A+</option>
+            <option value="aneg">A-</option>
+            <option value="bpos">B+</option>
+            <option value="bneg">B-</option>
+            <option value="abpos">AB+</option>
+            <option value="abneg">AB-</option>
+            <option value="opos">O+</option>
+            <option value="oneg">O-</option>
+            <option value="unk">UNKNOWN</option>
+          </select>
+
+          <label for="covid">COVID19 Vaccine?</label>
+          <select class="covid" id="covid">
+            <option value="none">--</option>
+            <option value="yes">YES</option>
+            <option value="no">NO</option>
+            </select> <br />
+            <br />
+
+          <label for="ssn">SSN:</label>
+          <input type="password" id="ssn" name="ssn">
+          <label for="creditcard">Credit Card Number: </label>
+          <input type="password" id="creditcard" name="creditcard">
+          <label for="cid">CID:</label>
+          <input type="password" id="cid" name="cid">
+          <label for="pin">Pin: </label>
+          <input type="password" id="pin" name="pin" > <br />
+          <br />
+
           <label for="favsport">Favorite Sport:</label> <br />
           <select class="favsport" id="favsport">
+            <option value="none">--</option>
             <option value="football">American Football</option>
             <option value="soccer">Soccer</option>
             <option value="hockey">Hockey</option>
@@ -122,6 +173,7 @@
           <label for="coached">Coached</label>
           <input type="checkbox" id="bet" name="bet" value="Bet on">
           <label for="bet">Bet on</label><br />
+          <br />
 
           <label for="preference">For this sport, I prefer:</label>
           <input type="radio" id="amateur" name="amateur" value="Amateur">
@@ -131,7 +183,7 @@
           <input type="radio" id="professional" name="professional" value="Professional">
           <label for="professional">Professional</label><br />
 
-          <input type="submit" name="submitquery" value="Submit Query">
+          <input type="submit" name="submitquery" value="Submit Form">
         </form>
   </body>
 </html>
