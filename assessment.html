@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style> .indented { padding-left: 50pt; padding-right: 50pt; } </style>
+<style> .tab { padding-left: 10pt;} </style>
+<style> .tabs { padding-left: 40pt;} </style>
+    <title>HTML Assessment</title>
+  </head>
+  <body>
+    <h1>HTML Assessment</h1>
+    <hr>
+    <h5>My web page may slightly resemble the given example!</h5>
+    <h1>MEANINGLESS TEXT</h1>
+    <p><tt> <b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit, sed <br />
+      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br />
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <br />
+      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <br />
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br />
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id <br />
+      est laborum. </tt></p>
+    <p class="indented"><b><i>Integer</b> ipsum dolor sit amet, consectetur adipisicing <br />
+    elit, sed do eiusmod tempor incididunt ut labore et <br />
+    dolore magna aliqua. Ut enim ad minim veniam, quis <br />
+    nostrud exercitation ullamco laboris nisi.</i></p>
+    <p><tt><b>Vestibulum</b> ipsum dolor sit amet, consectetur adipisicing elit, sed <br />
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br />
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br />
+    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. <tt /> </p>
+
+      <h1>FOOTBALL SCORES TABLE</h1>
+        <table>
+          <tr>
+            <b class="tabs">Scores by Quarter</b> <br />
+            <b class="tabs">First Half  Second Half </b> <br />
+          </tr>
+            <th align="middle"> <b>Team Name</b> </th>
+            <th align="right"> <b>Q1  </b> </th>
+            <th align="right"> <b>Q2  </b> </th>
+            <th align="right"> <b>Q3  </b> </th>
+            <th align="right"> <b>Q4  </b> </th>
+            <th align="top"> <b>Final  </b> </th>
+          </tr>
+          <tr>
+            <td>Las Vegas</td>
+            <td>0</td>
+            <td>3</td>
+            <td>7</td>
+            <td>0</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>San Fransisco</td>
+            <td>7</td>
+            <td>13</td>
+            <td>14</td>
+            <td>0</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <b>
+            <td align="right">Total</td>
+            <td align="right">7</td>
+            <td align="right">16</td>
+            <td align="right">21</td>
+            <td align="right">0</td>
+            <td align="right">44</td></b>
+          </tr>
+        </table>
+
+      <h1>AMERICAN FOOTBALL TEAM LIST</h1>
+        <ul>
+          <img src="https://assets-sports.thescore.com/football/team/7/logo.png">
+        </ul>
+          <b class="tabs"> <a href="https://www.raiders.com"> Las Vegas Raiders</a> </b>
+          <ul>
+            <li>Coach: Jon Gruden</li>
+            <li>QB</li>
+            <ol start="1">
+              <li>Nathan Peterman</li>
+              <li>Marcus Mariota</li>
+              <li>Derek Carr</li>
+            </ol>
+          </ul>
+
+          <ul>
+          <img src="https://assets-sports.thescore.com/football/team/23/logo.png">
+          </ul>
+          <b class="tabs"> <a href="https://www.49ers.com"> San Fransisco 49ers</a> </b>
+          <ul>
+            <li>Coach: Kyle Shanahan</li>
+            <li>QB</li>
+              <ol start="1">
+                <li>Nate Sudfeld</li>
+                <li>Trey Lance</li>
+                <li>Jimmy Garoppolo</li>
+              </ol>
+          </ul>
+
+      <h1>PERSONALIZED SPORTS ENTRY FORM</h1>
+        <form class="" action="index.html" method="post">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="fname"> <br />
+          <label for="favsport">Favorite Sport:</label> <br />
+          <select class="favsport" id="favsport">
+            <option value="football">American Football</option>
+            <option value="soccer">Soccer</option>
+            <option value="hockey">Hockey</option>
+            <option value="baseball">Baseball</option>
+            <option value="tennis">Tennis</option>
+            <option value="golf">Golf</option>
+          </select>
+
+          <label for="action">I have:</label>
+          <input type="checkbox" id="attended" name="attended" value="Attended">
+          <label for="attended">Attended</label>
+          <input type="checkbox" id="played" name="played" value="Played">
+          <label for="played">Played</label>
+          <input type="checkbox" id="coached" name="coached" value="Coached">
+          <label for="coached">Coached</label>
+          <input type="checkbox" id="bet" name="bet" value="Bet on">
+          <label for="bet">Bet on</label><br />
+
+          <label for="preference">For this sport, I prefer:</label>
+          <input type="radio" id="amateur" name="amateur" value="Amateur">
+          <label for="amateur">Amateur</label>
+          <input type="radio" id="college" name="college" value="College">
+          <label for="college">College</label>
+          <input type="radio" id="professional" name="professional" value="Professional">
+          <label for="professional">Professional</label><br />
+
+          <input type="submit" name="submitquery" value="Submit Query">
+        </form>
+  </body>
+</html>
