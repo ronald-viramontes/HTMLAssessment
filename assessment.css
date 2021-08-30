@@ -27,10 +27,6 @@ blockquote {
   color: #90EE90;
 }
 
-.backgroundColor {
-  background-color: #2F4F4F;
-}
-
 #teamRoster > li:first-child{
 
   background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
@@ -46,6 +42,9 @@ blockquote {
   overflow: hidden;
   background-position: top left;
   background-repeat: no-repeat;
+}
+ol > li:nth-child(1) {
+  font-weight: bold;
 }
 #checkbox-grid {
   list-style-type: none;
